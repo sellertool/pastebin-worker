@@ -5,10 +5,10 @@ main = "src/index.ts"
 workers_dev = false
 
 # 如果没使用自定义域名，将BASE_URL改为 worker 的默认路由
-vars = { ENVIRONMENT = "production", BASE_URL = "https://worker-hidden-frost-917f.sslsecuse.workers.dev" }
+vars = { ENVIRONMENT = "production" }
 
 # 如果不使用自定义域名，将下面的代码注释掉
-route = { pattern = "worker-hidden-frost-917f.sslsecuse.workers.dev", custom_domain = true }
+#route = { pattern = "worker-hidden-frost-917f.sslsecuse.workers.dev", custom_domain = true }
 
 kv_namespaces = [
   { binding = "PB", id = "f02c167494e54cc7bc54c07f6f9df4fd" },
