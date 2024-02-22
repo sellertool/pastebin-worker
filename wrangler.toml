@@ -11,7 +11,7 @@ vars = { ENVIRONMENT = "production", BASE_URL = "https://as.al" }
 route = { pattern = "as.al", custom_domain = true }
 
 kv_namespaces = [
-  { binding = "PB", id = "85ce3453c9f942a6900a5e9e4cdd34e7" },
+  { binding = "__pastebin-worker-workers_sites_assets", id = "85ce3453c9f942a6900a5e9e4cdd34e7" },
 ]
 
 [site]
