@@ -11,7 +11,7 @@ vars = { ENVIRONMENT = "production", BASE_URL = "https://worker-hidden-frost-917
 #route = { pattern = "worker-hidden-frost-917f.sslsecuse.workers.dev", custom_domain = true }
 
 kv_namespaces = [
-  { binding = "PB", id = "f02c167494e54cc7bc54c07f6f9df4fd" },
+  { binding = "PB", id = "0743454c079c4b978bdf47ba8d2c9e21" },
 ]
 
 [site]
