@@ -20,4 +20,4 @@ bucket = "./static/dist"
 
 [[r2_buckets]]
 binding = 'BUCKET'
-bucket_name = 'pastes'
+bucket_name = 'puv'
