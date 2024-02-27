@@ -11,7 +11,7 @@ vars = { ENVIRONMENT = "production", BASE_URL = "https://share.sslsecuse.workers
 #route = { pattern = "worker-hidden-frost-917f.sslsecuse.workers.dev", custom_domain = true }
 
 kv_namespaces = [
-  { binding = "PB", id = "1aafb7c2c1824204ae623045cc44ea40" },
+  { binding = "PB", id = "3a16935f8a084de3b3fb8c93295dbf97" },
 ]
 
 [site]
@@ -20,4 +20,4 @@ bucket = "./static/dist"
 
 [[r2_buckets]]
 binding = 'BUCKET'
-bucket_name = 'puv'
+bucket_name = 'pastes'
